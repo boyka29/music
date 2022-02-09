@@ -13,16 +13,12 @@
     <a href="https://github.com/levina-lab/video-stream/network/members"> <img src="https://img.shields.io/github/stars/levina-lab/video-stream?color=red&logo=github&logoColor=blue&style=flat-square" /></a>  
 </p>
 
-## 📊 Stats
-[![CodeFactor](https://www.codefactor.io/repository/github/levina-lab/video-stream/badge)](https://www.codefactor.io/repository/github/levina-lab/video-stream)
-
-## 🧪 Get `SESSION_NAME` from below:
-
-[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@levinalab/StringSession#main.py) ``Pyrogram``
+## 📊 CodeFactor Stats
+[![CodeFactor](https://www.codefactor.io/repository/github/levina-lab/video-stream/badge)](https://www.codefactor.io/repository/github.com/boyka29/music)
 
 ## 🎭 Preview
 <p align="center">
-  <img src="https://telegra.ph/file/b8c1461bcbbad5664aa48.png">
+  <img src="https://telegra.ph/file/11e63eb2b59ad15a43a03.jpg">
 </p>
 
 ## ✨ Features
@@ -38,12 +34,15 @@
 - Control With Button support
 - Volume Control
 - Userbot Auto Join
+- Broadcast & Global Ban
+- Shell Executor (eval & sh)
+- SpeedTest Runner
 - Direct Updater
 
 ## 🛠 Commands:
 | Command | Description |
 | ------ | ------ |
-| `/mplay (query)` | play music from youtube |
+| `/play (query)` | play music from youtube |
 | `/vplay (query)` | play video from youtube |
 | `/vstream (live link)` | play video live streaming video |
 | `/pause` | pause the streaming (admin only) |
@@ -61,12 +60,18 @@
 | `/leaveall` | order the userbot to leave from all group (sudo only) |
 | `/update` | update your bot directly without leaving telegram (sudo only) |
 | `/restart` | restart your bot directly without leaving telegram (sudo only) |
-| `/clean` | clean all raw files |
-| `/rmd` | clean all downloaded files |
-## Heroku Deployment 💜
-The easy way to host this bot, deploy to Heroku, Change the app country to Europe (it will help to make the bot stable).
+| `/speedtest` | run server speedtest that you use to run your bot |
+| `/broadcast` | brodcast message to all group that in bot database |
+| `/gban & /ungban` | use this to gban someone and ungban them |
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/levina-lab/video-stream)
+## Generate Session Name 🔻
+
+[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@levinalab/StringSession#main.py)
+
+## Heroku Deployment 💜
+
+<h3 align="center">Click The button below for deploy your bot to Heroku, Note: Set the app country to Europe (it will help to make the bot stable).</h3>
+<p align="center"><a href="https://heroku.com/deploy"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" target="_blank"/></a></p>
 
 ## VPS Deployment 📡
 Get the best Quality of streaming performance by hosting it on VPS, here's the step's:
@@ -92,9 +97,7 @@ python3 main.py # run the bot.
 
 - [Levina](https://github.com/levina-lab) ``Dev``
 - [Zxce3](https://github.com/Zxce3) ``Dev``
-- [DoellBarr](https://github.com/DoellBarr) ``Dev``
 - [tofikdn](https://github.com/tofikdn) ``Dev``
-- [Hunter-XDD](https://github.com/Hunter-XDD) ``Dev``
 - [Laky's](https://github.com/Laky-64) for [``py-tgcalls``](https://github.com/pytgcalls/pytgcalls)
 - [Dan](https://github.com/delivrance) for [``Pyrogram``](https://github.com/pyrogram)
 
